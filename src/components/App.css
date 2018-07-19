@@ -1,0 +1,119 @@
+.italic {
+  font-family: cursive;
+}
+
+html, body {
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+#navigationTab.stick {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.script-font {
+  font-family: shadows into light,fantasy;
+}
+
+.focus {
+  font-weight: 600;
+  color: #333;
+}
+
+.grey {
+  color: #8b8989;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.fixed-width {
+  width: 88px;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animatedText {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 40px;
+}
+
+.tab-content {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-tab:hover .work-title {
+  visibility: hidden;
+}
+
+.work-tab:hover .work-details {
+  visibility: visible;
+}
+
+.work-tab:hover {
+  background: #ffe4c4;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+}
