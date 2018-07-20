@@ -9,25 +9,14 @@ class Aboutme extends Component {
     return (
       <About id={type} key="about_section">
         <MyDetails>
-        <div>
+        <div className='profile_image'>
           <img alt="user" className="profileImage" src={ profileImage } />
         </div>
         <RightSection>
-        <h3 className="header">Hi Guys!</h3>
-        <p className="about_myself grey">An avid learner of latest front-end technologies, aspiring to leave a lasting impression on the development world by working in high-performing digital products. A proactive individual willing to work in a team of technology lovers.</p>
+          <h3 className="header theme_color">Hi Guys!</h3>
+          <p className="about_myself grey">My name is Poulima Biswas and I am a full-time Front End Developer who specializes in creating beautiful webpages and mobile applications. I have been in this field for 3 years, enjoying every moment and learning new things. I aspire to work on something that will leave my mark in the Development World. Keep scrolling down to check out my areas of expertise</p>
 
-        <MyInfo>
-          <p>  <span className="focus fixed-width"> Name </span> : <span className="grey"> Poulima Biswas </span> </p>
-          <p> <span className="focus fixed-width"> Age </span> : <span className="grey"> 25 </span> </p>
-          <p> <span className="focus fixed-width"> Experience </span> : <span className="grey"> 3 years </span> </p>
-          <p> <span className="focus fixed-width"> Country </span> : <span className="grey"> India </span> </p>
-          <p> <span className="focus fixed-width"> Location </span> : <span className="grey"> Chennai </span> </p>
-          <p> <span className="focus fixed-width"> e-mail </span> : <span className="grey"> biswaspoulima36@gmail.com </span> </p>
-          <p> <span className="focus fixed-width"> Phone </span> : <span className="grey"> +91 8930326005 </span> </p>
-          <p> <span className="focus fixed-width"> Job Change </span> : <span className="grey"> Available </span> </p>
-        </MyInfo>
-
-        <a href={resume} className="download_resume" download> DOWNLOAD RESUME </a>
+          <a href={resume} className="download_resume" download> DOWNLOAD RESUME </a>
         </RightSection>
         </MyDetails>
       </About>

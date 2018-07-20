@@ -3,7 +3,6 @@ import backgroundTheme from '../images/background_theme.jpeg';
 
 export const HomePage = styled.div`
   height: 100vh;
-  margin-top: 48px;
   background: url(${backgroundTheme}) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,13 +22,13 @@ export const HomePage = styled.div`
 
   .title {
     color: #fff;
-    font-size: 46px;
-    letter-spacing: 10px;
+    font-size: 52px;
+    letter-spacing: 6px;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 20px;
+    margin: 38px 20px;
     animation-delay: 0.4s;
-    font-family: BlendaScript;
+    font-family: JosefinSansBold;
   }
 
   .role {
@@ -42,6 +41,5 @@ export const HomePage = styled.div`
 
   .introduction {
     text-align: center;
-    margin-bottom: 20%;
   }
 `

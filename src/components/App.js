@@ -49,19 +49,18 @@ class App extends Component {
 
     const window_top = document.getElementById('wrapper').scrollTop + 48;
     const home_section_top = document.getElementById('home').offsetTop;
-    const home_section_height = document.getElementById('home').offsetHeight + home_section_top;
+    const home_section_height = document.getElementById('home').offsetHeight + home_section_top - 200;
 
     const about_section_top = document.getElementById('aboutme').offsetTop;
-    const about_section_height = document.getElementById('aboutme').offsetHeight + about_section_top;
+    const about_section_height = document.getElementById('aboutme').offsetHeight + about_section_top - 200;
 
     const skill_section_top = document.getElementById('skills').offsetTop;
-    const skill_section_height = document.getElementById('skills').offsetHeight + skill_section_top;
+    const skill_section_height = document.getElementById('skills').offsetHeight + skill_section_top - 200;
 
     const work_section_top = document.getElementById('works').offsetTop;
-    const work_section_height = document.getElementById('works').offsetHeight + work_section_top;
+    const work_section_height = document.getElementById('works').offsetHeight + work_section_top - 200;
 
     const contact_section_top = document.getElementById('contact').offsetTop;
-    const contact_section_height = document.getElementById('contact').offsetHeight + contact_section_top;
 
     if(home_section_top <= window_top && home_section_height > window_top) {
       this.setState({ selectedItem : 'home' });
@@ -71,7 +70,7 @@ class App extends Component {
       this.setState({ selectedItem : 'skills' });
     } else if (work_section_top <= window_top && work_section_height > window_top) {
       this.setState({ selectedItem : 'works' });
-    } else if (contact_section_top <= window_top ) {
+    } else if (contact_section_top < window_top  ) {
       this.setState({ selectedItem : 'contact' })
     }
     const elements = document.getElementsByClassName('skillLogo');

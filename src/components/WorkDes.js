@@ -8,7 +8,7 @@ class WorkDes extends Component {
     return (
       <EachWorkDes work_id={des.id} className="work-tab">
         <div className="tab-content work-title">
-          <h3 className="title">{des.title}</h3>
+          <h3>{des.title}</h3>
         </div>
         <div className="tab-content work-details">
           <span>{des.des}</span>

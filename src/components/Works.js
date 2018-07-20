@@ -19,9 +19,14 @@ class Works extends Component {
     const { type } = this.props;
     return (
       <WorkSection id={type} key="work_section" >
-        <WorkList>
-        { my_works.map(work => <WorkDes key={work.id} des={work}/>)}
-        </WorkList>
+        <div className="dark_background">
+        <div className="work_wrapper">
+          <h3 className="title">What I have done</h3>
+          <WorkList>
+            { my_works.map(work => <WorkDes key={work.id} des={work}/>)}
+          </WorkList>
+        </div>
+        </div>
       </WorkSection>
     );
   }

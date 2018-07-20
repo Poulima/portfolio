@@ -1,16 +1,47 @@
 
 @font-face {
- font-family: 'HoneyScript';
- src: url('../fonts/HoneyScript-Light.ttf');
+ font-family: 'ShadowsIntoLight';
+ src: url('../fonts/ShadowsIntoLight.ttf');
 }
 
 @font-face {
- font-family: 'BlendaScript';
- src: url('../fonts/Blenda Script.otf');
+  font-family: 'KarlaRegular';
+  src: url('../fonts/Karla-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'KarlaBold';
+  src: url('../fonts/Karla-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'JosefinSansBold';
+  src: url('../fonts/JosefinSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'RussoOneRegular';
+  src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+
+.theme_color {
+  color: #00B5D5;
 }
 
 .italic {
   font-family: cursive;
+}
+
+.title {
+  font-size: 40px;
+  margin: 0px;
+  line-height: 37px;
+  color: #fff;
+  font-family: cursive;
+  word-spacing: 4px;
+  font-family: ShadowsIntoLight;
+  letter-spacing: 4px;
 }
 
 html, body {
@@ -39,7 +70,7 @@ html, body {
 }
 
 .script-font {
-  font-family: HoneyScript;
+  font-family: ShadowsIntoLight;
   font-size: 40px;
 }
 
@@ -50,6 +81,10 @@ html, body {
 
 .grey {
   color: #8b8989;
+}
+
+.top-padding {
+  padding-top: 50px;
 }
 
 .no-margin {
@@ -103,7 +138,7 @@ html, body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto ;
+  grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 40px;
 }
 

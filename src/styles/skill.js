@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backgroundTheme from '../images/skill_theme1.jpg';
+import backgroundTheme from '../images/skill_background.jpg';
 
 export const SkillSection = styled.div`
   height: 100vh;
@@ -15,12 +15,7 @@ export const SkillSection = styled.div`
   background-repeat: no-repeat;
 
   .title {
-    font-size: 36px;
-    margin: 0px;
-    line-height: 37px;
-    color: #860c0c;
-    font-family: cursive;
-    word-spacing: 4px;
+    padding: 60px 0px;
   }
 `
 export const AllSkills = styled.div`
@@ -30,11 +25,11 @@ export const AllSkills = styled.div`
   .skillLogo {
     position: relative;
     visibility: hidden;
-    width: 150px;
-    height: 150px;
+    width: 144px;
+    height: 144px;
     position: relative;
     display: inline-block;
-    margin: 20px;
+    margin: 6px;
 
   }
   .animationEffect {

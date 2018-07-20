@@ -10,7 +10,7 @@ export const Topbar = styled.ul`
   justify-content: flex-end;
   height: 30px;
   align-items: center;
-  background: #d3d3d3;
+  background: #fff;
   margin: 0px;
   padding: 10px 48px;
   height: 48px;
@@ -21,6 +21,7 @@ export const Topbar = styled.ul`
     cursor: pointer;
     font-size: 16px;
     text-transform: uppercase;
+    font-family: KarlaBold;
   }
   .active {
     color: #00B5D5;
