@@ -15,7 +15,6 @@ export const HomePage = styled.div`
   align-items: center;
 
   .header-title {
-    font-size: 33px;
     margin: 0px;
     line-height: 37px;
     color: #fff;
@@ -30,10 +29,10 @@ export const HomePage = styled.div`
     font-weight: 700;
     margin: 20px;
     animation-delay: 0.4s;
+    font-family: BlendaScript;
   }
 
   .role {
-    font-size: 30px;
     color: #fff;
     font-weight: 400;
     line-height: 30px;

@@ -1,3 +1,14 @@
+
+@font-face {
+ font-family: 'HoneyScript';
+ src: url('../fonts/HoneyScript-Light.ttf');
+}
+
+@font-face {
+ font-family: 'BlendaScript';
+ src: url('../fonts/Blenda Script.otf');
+}
+
 .italic {
   font-family: cursive;
 }
@@ -28,7 +39,8 @@ html, body {
 }
 
 .script-font {
-  font-family: shadows into light,fantasy;
+  font-family: HoneyScript;
+  font-size: 40px;
 }
 
 .focus {
