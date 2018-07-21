@@ -12,24 +12,52 @@ export const About = styled.div`
   }
 
   .profileImage {
-    width: 68vh;
-    height: 68vh;
+    width: 80vh;
+    height: 70vh;
     border: 4px solid #888;
     border-radius: 8px;
     box-shadow: 0 3px 13px 0 rgba(0,0,0,0.4);
   }
+
+  .profile_image {
+    position: relative;
+    visibility: hidden;
+  }
+
+  .animationProfileImage {
+    visibility: visible;
+    -webkit-animation-name: imageDetails; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: imageDetails;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+  }
+
+  @keyframes imageDetails {
+      0%   {right:100px;}
+      100% {right:0px;}
+  }
+
+  @-webkit-keyframes imageDetails {
+      0%   {right:100px;}
+      100% {right:0px;}
+  }
+
   .des {
     text-align: center;
     display: block;
   }
+
   .about_myself {
     font-family: KarlaRegular;
     text-align: left;
     line-height: 28px;
     word-spacing: 10px;
     font-size: 20px;
-}
   }
+
   .download_resume {
     text-decoration: none;
     padding: 14px 26px;
@@ -60,18 +88,36 @@ export const MyDetails = styled.div`
 `
 
 export const RightSection = styled.div`
-  height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 30px;
-`;
 
-export const MyInfo = styled.div`
-  text-align: left;
-  margin: 30px 0px;
-  span {
-    display: inline-block;
-    margin: 0px 20px;
+
+  .profile_details {
+    position: relative;
+    visibility: hidden;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 30px;
   }
+
+  .animationProfileDetails {
+      visibility: visible;
+      -webkit-animation-name: profileDetails; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: profileDetails;
+      animation-duration: 2s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both
+  }
+    @keyframes profileDetails {
+        0%   {left:100px;}
+        100% {left:0px;}
+    }
+
+    @-webkit-keyframes profileDetails {
+        0%   {left:100px;}
+        100% {left:0px;}
+    }
+
 `;

@@ -157,6 +157,12 @@ html, body {
 
 .work-tab:hover .work-details {
   visibility: visible;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
 }
 
 .work-tab:hover {

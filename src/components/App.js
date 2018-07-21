@@ -66,6 +66,8 @@ class App extends Component {
       this.setState({ selectedItem : 'home' });
     } else if (about_section_top <= window_top && about_section_height > window_top) {
       this.setState({ selectedItem : 'aboutme' });
+      document.querySelector('.profile_image').classList.add('animationProfileImage');
+      document.querySelector('.profile_details').classList.add('animationProfileDetails');
     } else if (skill_section_top <= window_top && skill_section_height > window_top) {
       this.setState({ selectedItem : 'skills' });
     } else if (work_section_top <= window_top && work_section_height > window_top) {

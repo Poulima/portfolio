@@ -16,20 +16,19 @@ export const ContactSection = styled.div`
   }
 
   .contact_link {
-    width: 100%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
   .contact_details {
-   margin: 20px;
    cursor: pointer;
    text-align: center;
    display: inline-block;
   }
   .contact-logo {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 
 `
@@ -41,5 +40,5 @@ export const Footer = styled.div`
   color: #ddd;
   text-align: center;
   font-family: KarlaRegular;
-  word-spacing: 5px;
+  word-spacing: 3px;
 `
