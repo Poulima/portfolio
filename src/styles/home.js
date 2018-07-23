@@ -19,18 +19,17 @@ export const HomePage = styled.div`
     line-height: 37px;
     color: #fff;
     animation-delay: 0.2s;
-    ${media.sm`font-size: 40px;`};
+    ${media.sm`font-size: 32px;`};
   }
 
   .title {
     color: #fff;
     font-size: 52px;
-    ${media.sm`font-size: 32px;`};
+    ${media.sm`font-size: 24px; margin: 24px 18px;`};
     letter-spacing: 6px;
     text-transform: uppercase;
     font-weight: 700;
     margin: 38px 20px;
-    ${media.sm`margin: 38px 18px;`};
     animation-delay: 0.4s;
     font-family: JosefinSansBold;
   }
@@ -41,7 +40,7 @@ export const HomePage = styled.div`
     line-height: 30px;
     margin-bottom: 25px;
     animation-delay: 0.6s;
-    ${media.sm`font-size: 40px;`};
+    ${media.sm`font-size: 32px;`};
   }
 
   .introduction {
