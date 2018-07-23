@@ -8,7 +8,7 @@ export const About = styled.div`
   .header {
     text-align: center;
     margin: 20px 0px;
-    ${media.sm`margin-bottom: 0px;`};
+    ${media.sm`margin-bottom: 0px; font-size: 30px;`};
     font-size: 40px;
     font-family: JosefinSansBold;
     letter-spacing: 3px;
@@ -77,7 +77,7 @@ export const About = styled.div`
     width: 250px;
     text-align: center;
     margin-top: 30px;
-    ${media.sm`margin-bottom: 30px; margin-top: 0px; padding: 14px 5px;`};
+    ${media.sm`margin-bottom: 30px; margin-top: 0px; padding: 14px 5px; font-size: 14px; width: 190px;`};
   }
 `
 export const MyDetails = styled.div`

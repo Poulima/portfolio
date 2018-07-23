@@ -41,6 +41,7 @@ export const HomePage = styled.div`
     line-height: 30px;
     margin-bottom: 25px;
     animation-delay: 0.6s;
+    ${media.sm`font-size: 40px;`};
   }
 
   .introduction {

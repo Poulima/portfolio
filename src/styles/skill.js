@@ -18,6 +18,7 @@ export const SkillSection = styled.div`
 
   .title {
     padding: 60px 0px;
+    ${media.sm`padding: 40px 0px 0px;`};
   }
 
   .grid-container {
@@ -36,7 +37,7 @@ export const AllSkills = styled.div`
     visibility: hidden;
     width: 144px;
     height: 144px;
-    ${media.sm`width: 100px;; height: 100px;`};
+    ${media.sm`width: 50px;; height: 50px;`};
     position: relative;
     display: inline-block;
     margin: 6px;

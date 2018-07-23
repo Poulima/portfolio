@@ -25,6 +25,7 @@ export const WorkSection = styled.div`
 
   .title {
     padding: 60px 0px;
+    ${media.sm`padding: 40px 0px 0px;`};
   }
 `
 
@@ -63,6 +64,7 @@ export const EachWorkDes = styled.li`
     font-size: 18px;
     line-height: 30px;
     color: #888;
+    ${media.sm`font-size: 15px; line-height: 26px;`};
   }
 
 
