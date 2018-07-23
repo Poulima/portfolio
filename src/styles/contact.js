@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import workTheme from '../images/contact_background.png';
+import { media } from './Media';
+
 export const ContactSection = styled.div`
   height: 89vh;
   background-image: url(${workTheme});
@@ -16,7 +18,7 @@ export const ContactSection = styled.div`
   }
 
   .contact_link {
-    width: 70%;
+    width: 88%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -29,6 +31,7 @@ export const ContactSection = styled.div`
   .contact-logo {
     width: 90px;
     height: 90px;
+    ${media.sm`width: 40px; height: 40px;`};
   }
 
 `
@@ -41,4 +44,5 @@ export const Footer = styled.div`
   text-align: center;
   font-family: KarlaRegular;
   word-spacing: 3px;
+  ${media.sm`padding: 20px 0px;`};
 `

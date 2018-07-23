@@ -1,11 +1,14 @@
 import styled from 'styled-components';
+import { media } from './Media';
 
 export const About = styled.div`
   height: 100vh;
+  ${media.sm`height: auto;`};
   background: #D3D3D3	;
   .header {
     text-align: center;
     margin: 20px 0px;
+    ${media.sm`margin-bottom: 0px;`};
     font-size: 40px;
     font-family: JosefinSansBold;
     letter-spacing: 3px;
@@ -14,6 +17,7 @@ export const About = styled.div`
   .profileImage {
     width: 80vh;
     height: 70vh;
+    ${media.sm`width: 50vh; height: 50vh;`};
     border: 4px solid #888;
     border-radius: 8px;
     box-shadow: 0 3px 13px 0 rgba(0,0,0,0.4);
@@ -56,6 +60,7 @@ export const About = styled.div`
     line-height: 28px;
     word-spacing: 10px;
     font-size: 20px;
+    ${media.sm`font-size: 17px;`};
   }
 
   .download_resume {
@@ -72,12 +77,14 @@ export const About = styled.div`
     width: 250px;
     text-align: center;
     margin-top: 30px;
+    ${media.sm`margin-bottom: 30px; margin-top: 0px; padding: 14px 5px;`};
   }
 `
 export const MyDetails = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  ${media.sm`flex-direction: column;`};
   height: inherit;
   margin: 0px 40px;
   padding-top: 48px;
@@ -98,6 +105,7 @@ export const RightSection = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: 0px 30px;
+    ${media.sm`margin: 0px;`};
   }
 
   .animationProfileDetails {

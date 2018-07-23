@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { media } from './Media';
 
 export const Topbar = styled.ul`
   width: -webkit-fill-available;
@@ -15,6 +16,8 @@ export const Topbar = styled.ul`
   padding: 10px 48px;
   height: 48px;
   box-shadow: -8px -8px 34px #888;
+  ${media.sm`visibility: hidden;`};
+
   .listItem {
     color: #444;
     margin: 0px 20px;

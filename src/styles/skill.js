@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import backgroundTheme from '../images/skill_background.jpg';
+import { media } from './Media';
 
 export const SkillSection = styled.div`
   height: 100vh;
+  ${media.sm`height: auto;`};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +19,13 @@ export const SkillSection = styled.div`
   .title {
     padding: 60px 0px;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    ${media.sm`grid-template-columns: auto auto auto; grid-gap: 20px;`};
+    grid-gap: 40px;
+  }
 `
 export const AllSkills = styled.div`
   padding: 30px 0px;
@@ -27,6 +36,7 @@ export const AllSkills = styled.div`
     visibility: hidden;
     width: 144px;
     height: 144px;
+    ${media.sm`width: 100px;; height: 100px;`};
     position: relative;
     display: inline-block;
     margin: 6px;

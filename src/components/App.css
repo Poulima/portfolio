@@ -44,6 +44,12 @@
   letter-spacing: 4px;
 }
 
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
 html, body {
     margin: 0px;
     width: 100%;
@@ -71,7 +77,7 @@ html, body {
 
 .script-font {
   font-family: ShadowsIntoLight;
-  font-size: 40px;
+  font-size: 52px;
 }
 
 .focus {
@@ -134,12 +140,6 @@ html, body {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 40px;
 }
 
 .tab-content {

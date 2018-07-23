@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import workTheme from '../images/work_background.jpg';
+import { media } from './Media';
 
 export const WorkSection = styled.div`
   height: 100vh;
+  ${media.sm`height: auto;`};
   background-image: url(${workTheme});
   background-size: cover;
   background-position: center center;
@@ -31,6 +33,7 @@ export const WorkList = styled.ul`
  display: flex;
  justify-content: center;
  align-items: center;
+ ${media.sm`flex-direction: column;`};
  margin: 40px 0px;
 
 `
