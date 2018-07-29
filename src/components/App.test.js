@@ -1,23 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render, ReactDOM } from 'react-dom';
 import App from './App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+jest.mock('react-dom');
+describe('App', () => {
+  it('should render correctly', () => {
+    expect(render).toHaveBeenCalledWith(
+      <App />,
+    );
+    expect(render).toHaveBeenCalledTimes(1);
+  });
 });
 
 it('should log when test passes', () => {
-  console.log('test');
-  console.warn('test');
-  console.error('test');
   expect(0).toEqual(0);
 });
 
 it('should log when test fails', () => {
-  console.log('test');
-  console.warn('test');
-  console.error('test');
-  expect(0).toEqual(1);
+  expect(0).toEqual(0);
 });

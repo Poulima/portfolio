@@ -24,7 +24,7 @@ export const SkillSection = styled.div`
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    ${media.sm`grid-template-columns: auto auto auto; grid-gap: 20px;`};
+    ${media.sm`grid-template-columns: auto auto auto; grid-gap: 40px 28px;`};
     grid-gap: 40px;
   }
 `
@@ -37,7 +37,7 @@ export const AllSkills = styled.div`
     visibility: hidden;
     width: 144px;
     height: 144px;
-    ${media.sm`width: 50px;; height: 50px;`};
+    ${media.sm`width: 65px;; height: 65px;`};
     position: relative;
     display: inline-block;
     margin: 6px;

@@ -44,6 +44,7 @@ export const EachWorkDes = styled.li`
   margin: 20px;
   width: 30vh;
   height: 30vh;
+  ${media.sm`width: 26vh; height: 24vh;`};
   text-align: center;
   background: lightgrey;
   padding: 15px;
@@ -64,7 +65,7 @@ export const EachWorkDes = styled.li`
     font-size: 18px;
     line-height: 30px;
     color: #888;
-    ${media.sm`font-size: 15px; line-height: 26px;`};
+    ${media.sm`font-size: 14px; line-height: 20px;`};
   }
 
 

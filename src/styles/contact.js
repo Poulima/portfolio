@@ -29,8 +29,8 @@ export const ContactSection = styled.div`
    display: inline-block;
   }
   .contact-logo {
-    width: 90px;
-    height: 90px;
+    width: 95px;
+    height: 95px;
     ${media.sm`width: 40px; height: 40px;`};
   }
 
