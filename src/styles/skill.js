@@ -37,7 +37,7 @@ export const AllSkills = styled.div`
     visibility: hidden;
     width: 144px;
     height: 144px;
-    ${media.sm`width: 65px;; height: 65px;`};
+    ${media.sm`width: 65px; height: 65px;`};
     position: relative;
     display: inline-block;
     margin: 6px;

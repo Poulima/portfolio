@@ -64,16 +64,10 @@ class App extends Component {
 
     if(home_section_top <= window_top && home_section_height > window_top) {
       this.setState({ selectedItem : 'home' });
-      document.querySelector('.profile_image').classList.remove('animationProfileImage');
-      document.querySelector('.profile_details').classList.remove('animationProfileDetails');
     } else if (about_section_top <= window_top && about_section_height > window_top) {
       this.setState({ selectedItem : 'aboutme' });
-      document.querySelector('.profile_image').classList.add('animationProfileImage');
-      document.querySelector('.profile_details').classList.add('animationProfileDetails');
     } else if (skill_section_top <= window_top && skill_section_height > window_top) {
       this.setState({ selectedItem : 'skills' });
-      document.querySelector('.profile_image').classList.remove('animationProfileImage');
-      document.querySelector('.profile_details').classList.remove('animationProfileDetails');
     } else if (work_section_top <= window_top && work_section_height > window_top) {
       this.setState({ selectedItem : 'works' });
     } else if (contact_section_top < window_top  ) {
@@ -85,6 +79,14 @@ class App extends Component {
       skillList.forEach( (data,index) => data.classList.add('animationEffect'));
     } else {
       skillList.forEach( (data,index) => data.classList.remove('animationEffect'));
+    }
+
+    if ((about_section_top - window_top)  <= 372) {
+      document.querySelector('.profile_image').classList.add('animationProfileImage');
+      document.querySelector('.profile_details').classList.add('animationProfileDetails');
+    } else {
+      document.querySelector('.profile_image').classList.remove('animationProfileImage');
+      document.querySelector('.profile_details').classList.remove('animationProfileDetails');
     }
   }
 

@@ -63,7 +63,7 @@ export const EachWorkDes = styled.li`
     font-family: KarlaRegular;
     visibility: hidden;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     color: #888;
     ${media.sm`font-size: 14px; line-height: 20px;`};
   }
