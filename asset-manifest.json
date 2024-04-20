@@ -1,16 +1,31 @@
 {
-  "files": {
-    "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.91aeea80.js",
-    "static/js/453.d541171e.chunk.js": "/portfolio/static/js/453.d541171e.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/portfolio/index.html",
-    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.91aeea80.js.map": "/portfolio/static/js/main.91aeea80.js.map",
-    "453.d541171e.chunk.js.map": "/portfolio/static/js/453.d541171e.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.91aeea80.js"
-  ]
+  "main.css": "static/css/main.b497131d.css",
+  "main.css.map": "static/css/main.b497131d.css.map",
+  "main.js": "static/js/main.4c433803.js",
+  "main.js.map": "static/js/main.4c433803.js.map",
+  "static/media/JosefinSans-Bold.ttf": "static/media/JosefinSans-Bold.9880fc08.ttf",
+  "static/media/Karla-Bold.ttf": "static/media/Karla-Bold.b45be274.ttf",
+  "static/media/Karla-Regular.ttf": "static/media/Karla-Regular.fd3f938a.ttf",
+  "static/media/Poulima_Resume.pdf": "static/media/Poulima_Resume.0bdd72e7.pdf",
+  "static/media/RussoOne-Regular.ttf": "static/media/RussoOne-Regular.d14e8736.ttf",
+  "static/media/ShadowsIntoLight.ttf": "static/media/ShadowsIntoLight.01782a7f.ttf",
+  "static/media/babel_logo.png": "static/media/babel_logo.e7c474b7.png",
+  "static/media/background_theme.jpeg": "static/media/background_theme.06a5e5ae.jpeg",
+  "static/media/contact_background.png": "static/media/contact_background.84a31b9a.png",
+  "static/media/email_logo2.png": "static/media/email_logo2.cdeec236.png",
+  "static/media/eslint_logo.svg": "static/media/eslint_logo.bbb6e08b.svg",
+  "static/media/github_logo1.svg": "static/media/github_logo1.3c35ce34.svg",
+  "static/media/grunt_logo.png": "static/media/grunt_logo.242a202b.png",
+  "static/media/gulp_logo.png": "static/media/gulp_logo.2069f913.png",
+  "static/media/ionic_logo.png": "static/media/ionic_logo.0f735083.png",
+  "static/media/linkedin_logo.svg": "static/media/linkedin_logo.d7a897bb.svg",
+  "static/media/profile.jpg": "static/media/profile.0aaabe05.jpg",
+  "static/media/pwa_logo.svg": "static/media/pwa_logo.9f0ab88a.svg",
+  "static/media/react_logo.png": "static/media/react_logo.ea42bd8f.png",
+  "static/media/redux_logo.svg": "static/media/redux_logo.aa0a3376.svg",
+  "static/media/sass_logo.svg": "static/media/sass_logo.8e766e95.svg",
+  "static/media/skill_background.jpg": "static/media/skill_background.0904e132.jpg",
+  "static/media/styled_component_logo.png": "static/media/styled_component_logo.eb571fcd.png",
+  "static/media/webpack_logo.png": "static/media/webpack_logo.c500a380.png",
+  "static/media/work_background.jpg": "static/media/work_background.598ef3d8.jpg"
 }
