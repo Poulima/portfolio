@@ -10,7 +10,6 @@ export const About = styled.div`
     margin: 20px 0px;
     ${media.sm`margin-bottom: 0px; font-size: 30px;`};
     font-size: 40px;
-    font-family: JosefinSansBold;
     letter-spacing: 3px;
   }
 
@@ -55,7 +54,6 @@ export const About = styled.div`
   }
 
   .about_myself {
-    font-family: KarlaRegular;
     text-align: left;
     line-height: 28px;
     word-spacing: 10px;
@@ -71,7 +69,6 @@ export const About = styled.div`
     display: inline-block;
     border-radius: 4px;
     word-spacing: 6px;
-    font-family: KarlaBold;
     font-size: 17px;
     letter-spacing: 2px;
     width: 250px;

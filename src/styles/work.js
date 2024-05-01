@@ -59,14 +59,44 @@ export const EachWorkDes = styled.li`
     font-weight: normal;
     word-spacing: 4px;
   }
+  .projectDetailsButton {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
   .work-details {
     font-family: KarlaRegular;
+    font-size: 14px;
+    display: flex;
+    gap: 10px 0px;
+    flex-direction: column;
     visibility: hidden;
-    font-size: 18px;
-    line-height: 25px;
     color: #888;
     ${media.sm`font-size: 14px; line-height: 20px;`};
   }
 
 
+`
+
+export const Wrapper = styled.div` {
+
+  .modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .closeIcon {
+    cursor: pointer;
+  }
+
+  .listWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 0px;
+  }
+}
 `

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backgroundTheme from '../images/skill_background.jpg';
+import backgroundTheme from '../images/skill_background4.jpeg';
 import { media } from './Media';
 
 export const SkillSection = styled.div`
@@ -18,6 +18,7 @@ export const SkillSection = styled.div`
 
   .title {
     padding: 60px 0px;
+    color: #00b5d5;
     ${media.sm`padding: 40px 0px 0px;`};
   }
 
@@ -35,8 +36,8 @@ export const AllSkills = styled.div`
   .skillLogo {
     position: relative;
     visibility: hidden;
-    width: 144px;
-    height: 144px;
+    width: 130px;
+    height: 130px;
     ${media.sm`width: 65px; height: 65px;`};
     position: relative;
     display: inline-block;

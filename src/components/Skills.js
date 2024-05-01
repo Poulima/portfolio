@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import sassLogo from '../images/logo/sass_logo.svg';
-import reactLogo from '../images/logo/react_logo.png';
-import reduxLogo from '../images/logo/redux_logo.svg';
-import styledComponentLogo from '../images/logo/styled_component_logo.png';
-import angularLogo from '../images/logo/angular_logo.png';
-import pwaLogo from '../images/logo/pwa_logo.svg';
-import ionicLogo from '../images/logo/ionic_logo.png';
-import babelLogo from '../images/logo/babel_logo.png';
-import webpackLogo from '../images/logo/webpack_logo.png';
-import eslintLogo from '../images/logo/eslint_logo.svg';
-import gruntLogo from '../images/logo/grunt_logo.png';
-import gulpLogo from '../images/logo/gulp_logo.png';
+import reactLogo from '../images/logo/react.svg';
+import reduxLogo from '../images/logo/redux.svg';
+import nodeLogo from '../images/logo/nodejs.svg';
+import expressLogo from '../images/logo/express.svg';
+import mongoLogo from '../images/logo/mongodb.svg';
+import dockerLogo from '../images/logo/docker.svg';
+import kubernetesLogo from '../images/logo/kubernetes.svg';
+import jenkinsLogo from '../images/logo/jenkins.svg';
+import awsLogo from '../images/logo/aws.png';
+import jestLogo from '../images/logo/jest.svg';
+import webpackLogo from '../images/logo/webpack.svg';
+import babelLogo from '../images/logo/babel.svg';
+
 import { AllSkills, SkillSection } from '../styles/skill';
 
 class Skills extends Component {
@@ -19,16 +20,17 @@ class Skills extends Component {
     this.state = {
       skills : [{ id: 1, title:'React', url: reactLogo },
                 { id: 2, title: 'Redux', url: reduxLogo },
-                { id: 3, title: 'Webpack', url: webpackLogo},
-                { id: 4, title: 'Babel', url: babelLogo},
-                { id: 5, title:'SASS', url: sassLogo },
-                { id: 6, title: 'Eslint', url: eslintLogo},
-                { id: 7, title: 'PWA', url: pwaLogo },
-                { id: 8, title: 'Styled Component', url: styledComponentLogo },
-                { id: 9, title: 'AngularJs', url: angularLogo },
-                { id: 10, title: 'Ionic', url: ionicLogo},
-                { id: 11, title: 'Grunt', url: gruntLogo},
-                { id: 12, title: 'Gulp', url: gulpLogo},
+                { id: 3, title: 'Node', url: nodeLogo},
+                { id: 4, title: 'Express', url: expressLogo},
+                { id: 5, title:'MongoDB', url: mongoLogo },
+                { id: 6, title: 'Docker', url: dockerLogo},
+                { id: 7, title: 'Kubernetes', url: kubernetesLogo },
+                { id: 8, title: 'Jenkins', url: jenkinsLogo },
+                { id: 9, title: 'AWS', url: awsLogo },
+                { id: 10, title: 'JestLogo', url: jestLogo },
+                { id: 11, title: 'Babel', url: babelLogo },
+                { id: 12, title: 'Webpack', url: webpackLogo },
+         
                ]
     }
   }

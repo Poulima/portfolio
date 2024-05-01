@@ -15,7 +15,7 @@ class Aboutme extends Component {
         <RightSection>
           <div className='profile_details'>
             <h3 className="header theme_color">Hi Guys!</h3>
-            <p className="about_myself grey">My name is Poulima Biswas and I am a full-time Front End Developer who specializes in creating beautiful webpages and mobile applications. I have been in this field for 3 years, enjoying every moment and learning new things. I aspire to work on something that will leave my mark in the Development World. Keep scrolling down to check out my areas of expertise</p>
+            <p className="about_myself grey">My name is Poulima Biswas and I am an enthusiastic React fullstack developer working on web application development and always ready to learn new tools and technologies.  I have been in this field for 8.5 years, enjoying every moment and learning new things. I aspire to work on something that will leave my mark in the Development World. Keep scrolling down to check out my areas of expertise</p>
             <a href={resume} className="download_resume" download> DOWNLOAD RESUME </a>
           </div>
         </RightSection>
