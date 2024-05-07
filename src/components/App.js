@@ -16,7 +16,7 @@ class App extends Component {
       detail : [{ id:'home', title:'Home'},
                 { id:'aboutme', title:'About me'},
                 { id:'skills', title:'Skills'},
-                { id:'works', title: 'Works'},
+                { id:'works', title: 'Projects'},
                 { id:'contact', title: 'Contact'},
                ]
     }
@@ -75,13 +75,13 @@ class App extends Component {
     }
     const elements = document.getElementsByClassName('skillLogo');
     const skillList = [...elements];
-    if ((skill_section_top - window_top)  <= 372) {
+    if ((skill_section_top - window_top)  <= 500) {
       skillList.forEach( (data,index) => data.classList.add('animationEffect'));
     } else {
       skillList.forEach( (data,index) => data.classList.remove('animationEffect'));
     }
 
-    if ((about_section_top - window_top)  <= 372) {
+    if ((about_section_top - window_top)  <= 500) {
       document.querySelector('.profile_image').classList.add('animationProfileImage');
       document.querySelector('.profile_details').classList.add('animationProfileDetails');
     } else {

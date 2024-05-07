@@ -14,8 +14,8 @@ class Aboutme extends Component {
         </div>
         <RightSection>
           <div className='profile_details'>
-            <h3 className="header theme_color">Hi Guys!</h3>
-            <p className="about_myself grey">My name is Poulima Biswas and I am an enthusiastic React fullstack developer working on web application development and always ready to learn new tools and technologies.  I have been in this field for 8.5 years, enjoying every moment and learning new things. I aspire to work on something that will leave my mark in the Development World. Keep scrolling down to check out my areas of expertise</p>
+            {/* <h3 className="header theme_color">Hi Guys!</h3> */}
+            <p className="about_myself">This is Poulima Biswas, an enthusiastic React fullstack developer working on web application development. I have 8.5+ years of relevant industry experience. I have been primarily working in Agile environment with Redux, Styled Components, NodeJS, Express, and MongoDB while using Docker, Kubernetes, and AWS for code deployment. I am always looking forward in learning new tools and technologies. Keep scrolling down to check out my areas of expertise.</p>
             <a href={resume} className="download_resume" download> DOWNLOAD RESUME </a>
           </div>
         </RightSection>

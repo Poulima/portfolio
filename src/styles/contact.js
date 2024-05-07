@@ -37,12 +37,13 @@ export const ContactSection = styled.div`
 `
 
 export const Footer = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background: #111;
   padding 20px;
   color: #ddd;
   text-align: center;
-  font-family: KarlaRegular;
   word-spacing: 3px;
   ${media.sm`padding: 20px 0px;`};
 `

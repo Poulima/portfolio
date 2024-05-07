@@ -51,7 +51,6 @@ export const EachWorkDes = styled.li`
   border-radius: 6px;
 
   .work-title {
-    font-family: JosefinSansBold;
     font-size: 32px;
     margin: 0px;
     line-height: 37px;
@@ -64,16 +63,19 @@ export const EachWorkDes = styled.li`
     background: transparent;
     font-size: 14px;
     cursor: pointer;
+    color: #00B5D5;
+    padding: 10px;
   }
 
   .work-details {
     font-family: KarlaRegular;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     gap: 10px 0px;
     flex-direction: column;
     visibility: hidden;
-    color: #888;
+    color: #111;
+    text-align: justify;
     ${media.sm`font-size: 14px; line-height: 20px;`};
   }
 

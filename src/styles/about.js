@@ -30,7 +30,7 @@ export const About = styled.div`
   .animationProfileImage {
     visibility: visible;
     -webkit-animation-name: imageDetails; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: imageDetails;
     animation-duration: 2s;
     animation-fill-mode: both;
@@ -54,11 +54,12 @@ export const About = styled.div`
   }
 
   .about_myself {
-    text-align: left;
+    text-align: justify;
     line-height: 28px;
     word-spacing: 10px;
     font-size: 20px;
     ${media.sm`font-size: 17px;`};
+    font-family: KarlaRegular;
   }
 
   .download_resume {
@@ -74,6 +75,7 @@ export const About = styled.div`
     width: 250px;
     text-align: center;
     margin-top: 30px;
+    font-family: KarlaRegular;
     ${media.sm`margin-bottom: 30px; margin-top: 0px; padding: 14px 5px; font-size: 14px; width: 190px;`};
   }
 `

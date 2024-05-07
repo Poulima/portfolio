@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <HomePage id={type} key="home_section" viewSection='view' >
         <div className="introduction">
-          <span className="script-font header-title animatedText animatedFadeInUp fadeInUp">Hi This is</span>
+          {/* <span className="script-font header-title animatedText animatedFadeInUp fadeInUp">Hi This is</span> */}
           <p className="title animatedText animatedFadeInUp fadeInUp"> Poulima Biswas </p>
           <span className="role script-font animatedText animatedFadeInUp fadeInUp"> React Fullstack Developer </span>
         </div>
