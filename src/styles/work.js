@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import workTheme from '../images/work_background.jpg';
+import workTheme from '../images/work_background1.jpeg';
 import { media } from './Media';
 
 export const WorkSection = styled.div`
