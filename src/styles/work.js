@@ -100,7 +100,8 @@ export const Wrapper = styled.div` {
   .listWrapper {
     display: flex;
     flex-direction: column;
-    gap: 4px; 0px;
+    gap: 6px; 0px;
+    text-align: justify;
   }
 }
 `
