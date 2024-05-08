@@ -4,18 +4,22 @@ import { WorkSection, WorkList, Wrapper } from '../styles/work';
 import Modal from 'react-modal';
 import closeIcon from '../images/close.png';
 
-const customStyles = {
-  content: {
-    top: '55vh',
-    left: '100vh',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-    width: '80%',
-    height: '75vh',
-    fontFamily: 'KarlaRegular',
-    paddingBottom: '30px'
-  },
-};
+// const customStyles = {
+//   content: {
+//     top: '55%',
+//     left: '50%',
+//     right: 'auto',
+//     bottom: 'auto',
+//     marginRight: '-50%',
+//     transform: 'translate(-50%, -50%)',
+//     width: '80%',
+//     height: '75vh',
+//     fontFamily: 'KarlaRegular',
+//     paddingBottom: '30px',
+//   },
+
+
+// };
 
 let my_works = [
   {
@@ -149,7 +153,8 @@ class Works extends Component {
               closeTimeoutMS={500}
               isOpen={modalIsOpen}
               onRequestClose={this.closeModal}
-              style={customStyles}
+              //style={customStyles}
+              className="Modal"
             >
               <Wrapper>
                 <div className='modalHeader'>

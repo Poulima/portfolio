@@ -186,3 +186,25 @@ html, body {
   opacity: 0;
   transform: translateX(-100px);
 }
+
+.Modal {
+  position: absolute;
+  inset: 55% auto auto 50%;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px 20px 30px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 75vh;
+  font-family: KarlaRegular;
+}
+
+@media screen and (max-width: 768px) {
+  .Modal {
+    inset: 50% auto auto 50%;
+  }
+}

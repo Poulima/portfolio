@@ -36,6 +36,8 @@ export const WorkList = styled.ul`
  align-items: center;
  ${media.sm`flex-direction: column;`};
  margin: 40px 0px;
+ padding: 0px;
+
 
 `
 
@@ -76,7 +78,7 @@ export const EachWorkDes = styled.li`
     visibility: hidden;
     color: #111;
     text-align: justify;
-    ${media.sm`font-size: 14px; line-height: 20px;`};
+    ${media.sm`font-size: 14px;`};
   }
 
 
